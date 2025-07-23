@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Logos from "./components/Logos";
 import AboutUs from "./components/AboutUs";
 import SupportTeam from "./components/SupportTeam";
+import Solutions from "./components/Solutions";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Logos />
       <AboutUs />
       <SupportTeam />
+      <Solutions />
     </div>
   );
 }
