@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Logos from "./components/Logos";
 import AboutUs from "./components/AboutUs";
+import SupportTeam from "./components/SupportTeam";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Logos />
       <AboutUs />
+      <SupportTeam />
     </div>
   );
 }
