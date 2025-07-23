@@ -7,6 +7,7 @@ import SupportTeam from "./components/SupportTeam";
 import Solutions from "./components/Solutions";
 import Stories from "./components/Stories";
 import News from "./components/News";
+import GetInTouch from "./components/GetInTouch";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Solutions />
        <Stories />
       <News />
+      <GetInTouch />
     </div>
   );
 }
