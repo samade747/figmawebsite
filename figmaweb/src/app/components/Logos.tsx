@@ -3,12 +3,12 @@
 import Image from 'next/image';
 
 const logos = [
-  '/logos/logo1.png',
-  '/logos/logo2.png',
-  '/logos/logo3.png',
-  '/logos/logo4.png',
-  '/logos/logo5.png',
-  '/logos/logo6.png',
+  '/logo1.png',
+  '/logo2.png',
+  '/logo3.png',
+  '/logo4.png',
+  '/logo5.png',
+  '/logo6.png',
 ];
 
 export default function Logos() {

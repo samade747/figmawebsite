@@ -16,7 +16,7 @@ const News = () => {
           {/* Card 1 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img
-              src="/news1.jpg"
+              src="/news1.png"
               alt="News 1"
               className="w-full h-48 object-cover"
             />
@@ -39,7 +39,7 @@ const News = () => {
           {/* Card 2 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img
-              src="/news2.jpg"
+              src="/news2.png"
               alt="News 2"
               className="w-full h-48 object-cover"
             />
@@ -62,7 +62,7 @@ const News = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img
-              src="/news3.jpg"
+              src="/news3.png"
               alt="News 3"
               className="w-full h-48 object-cover"
             />

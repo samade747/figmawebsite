@@ -69,7 +69,7 @@ const GetInTouch = () => {
         {/* Image Right Side */}
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <img
-            src="/contact-us.png" // ⬅️ Replace with your image path
+            src="/getintouch.png" // ⬅️ Replace with your image path
             alt="Get in Touch Illustration"
             className="w-full h-auto object-cover rounded-md"
           />

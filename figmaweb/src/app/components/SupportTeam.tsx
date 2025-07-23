@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 const supportImages = [
   '/teamone.png',
-  '/team/team2.png',
-  '/team/team3.png',
-  '/team/team4.png',
-  '/team/team5.png',
+  '/team2.png',
+  '/team3.png',
+  '/team4.png',
+  '/team5.png',
 ];
 
 export default function SupportTeam() {

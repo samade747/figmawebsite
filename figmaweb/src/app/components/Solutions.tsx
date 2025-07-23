@@ -4,9 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const solutionImages = [
-  '/solutions/solution1.png',
-  '/solutions/solution2.png',
-  '/solutions/solution3.png',
+  '/bg1.png',
+  '/bg2.png',
+  '/bg3.png',
 ];
 
 export default function Solutions() {
