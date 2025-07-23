@@ -3,7 +3,7 @@
 import Image from 'next/image';
 
 const supportImages = [
-  '/team/team1.png',
+  '/teamone.png',
   '/team/team2.png',
   '/team/team3.png',
   '/team/team4.png',
@@ -34,8 +34,8 @@ export default function SupportTeam() {
               <Image
                 src={src}
                 alt={`Support Team ${index + 1}`}
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className="object-cover rounded-md"
               />
             </div>
