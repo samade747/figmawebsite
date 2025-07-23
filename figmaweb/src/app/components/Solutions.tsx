@@ -1,6 +1,7 @@
 // app/components/Solutions.tsx
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 const solutionImages = [
   '/solutions/solution1.png',
@@ -18,7 +19,7 @@ export default function Solutions() {
         </h2>
 
         {/* Solution Boxes */}
-        <div className="space-y-8">
+        <div className="space-y-8 mb-10">
           {solutionImages.map((src, index) => (
             <div
               key={index}
@@ -34,6 +35,13 @@ export default function Solutions() {
             </div>
           ))}
         </div>
+
+        {/* View More Button */}
+        <Link href="/solutions">
+          <button className="mt-4 px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition font-semibold">
+            View More →
+          </button>
+        </Link>
       </div>
     </section>
   );
