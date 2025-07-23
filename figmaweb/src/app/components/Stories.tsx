@@ -67,13 +67,21 @@ export default function Stories() {
         {/* Navigation Dots */}
         {instanceRef.current && (
           <div className="mt-6 flex justify-center space-x-2">
-            {[...Array(instanceRef.current.track.details.slides.length / instanceRef.current.options.slides!.perView)].map((_, idx) => (
-              <button
-                key={idx}
-                onClick={() => instanceRef.current?.moveToIdx(idx * 2)}
-                className="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-600 transition"
-              />
-            ))}
+            {(() => {
+              const optionsSlides = instanceRef.current.options.slides;
+              let perView = 1;
+              if (typeof optionsSlides === 'object' && optionsSlides !== null && 'perView' in optionsSlides && typeof optionsSlides.perView === 'number') {
+                perView = optionsSlides.perView;
+              }
+              const numDots = Math.ceil(instanceRef.current.track.details.slides.length / perView);
+              return [...Array(numDots)].map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => instanceRef.current?.moveToIdx(idx * perView)}
+                  className="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-600 transition"
+                />
+              ));
+            })()}
           </div>
         )}
       </div>
