@@ -6,6 +6,7 @@ import AboutUs from "./components/AboutUs";
 import SupportTeam from "./components/SupportTeam";
 import Solutions from "./components/Solutions";
 import Stories from "./components/Stories";
+import News from "./components/News";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <SupportTeam />
       <Solutions />
        <Stories />
+      <News />
     </div>
   );
 }
